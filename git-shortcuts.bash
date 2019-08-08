@@ -3,11 +3,24 @@
 export CURRENT_BRANCH_NAME=""
 export JIRA_TAG=""
 export LOOP_STATUS_INTERVAL=60
+export GIT_SHORTCUTS_BRANCH="master"
 
 # git - status
 # Git status
 gs() {
   git status
+} 
+
+# git - log
+# Git log
+gl() {
+  git log
+} 
+
+# git - push
+# Git push
+gp() {
+  git push
 } 
 
 # git - branch
